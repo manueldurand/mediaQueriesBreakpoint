@@ -1,15 +1,62 @@
-body{
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CODE POUR LA PREMIERE PARTIE*******************/
+/* @media screen and (min-width:900px) { 
+    main{
 
     background-color: blue;
+    width: 600px;
+    height: 900px;
 }
+}
+
 @media screen and (max-width: 600px){
-body{ 
+main{ 
     background-color: red;
+    width: 200px;
+    height: 300px;
 } 
 }
 @media screen and (min-width:600px) and (max-width:900px) {
-    body{
+    main{
         background-color: yellow;
+        width: 400px;
+        height: 600px;
     }
     
+}  */
+/* __________________CODE POUR LA DEUXIEME PARTIE____________________ */
+@media screen and (max-width: 480px) {
+    main {
+        height: 200px;
+        width: 75px;
+        background-color: rgb(255, 3, 3);
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width:768px) {
+    main {
+        background-color: yellow;
+        height: 300px;
+        width: 150px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width:1279px) {
+    main {
+        background-color: rgb(0, 255, 106);
+        height: 400px;
+        width: 600px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    main {
+        background-color: rgb(0, 98, 255);
+        height: 8000px;
+        width: 1000px;
+    }
 }
